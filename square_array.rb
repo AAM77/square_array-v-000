@@ -1,7 +1,8 @@
-=begin
+
 
 numbers = [1, 2, 3 ,4 ,5 ,6 ,7, 8, 9, 10]
 
+=begin
 def square_array(array)
   new_array = [ ]
 
@@ -16,3 +17,5 @@ end
 def square_array(array)
   array.collect { |number| number*number }
 end
+
+print square_array(numbers)

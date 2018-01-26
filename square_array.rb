@@ -1,6 +1,6 @@
 
 
-numbers = [1, 2, 3 ,4 ,5 ,6 ,7, 8, 9, 10]
+## numbers = [1, 2, 3 ,4 ,5 ,6 ,7, 8, 9, 10]
 
 def square_array(array)
   new_array = [ ]
@@ -11,3 +11,5 @@ def square_array(array)
   end
   return new_array
 end
+
+## print square_array(numbers)

@@ -15,7 +15,9 @@ end
 =end
 
 def square_array(array)
-  array.collect { |number| number*number }
+  print array.collect { |number| number*number }
+  print array
 end
+
 
 print square_array(numbers)

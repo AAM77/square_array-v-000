@@ -12,3 +12,7 @@ def square_array(array)
   return new_array
 end
 =end
+
+def square_array(array)
+  return array.collect { |number| number*number }
+end
